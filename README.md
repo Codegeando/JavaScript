@@ -2,7 +2,6 @@
 
 Introducción a JavaScript
 ===================
-[TOC]
 
 Variables y asignación
 -------------
@@ -50,8 +49,9 @@ var $g0h4n;
 | typeof| var|void |while |
 
 Los siguientes identificadores, no son palabras reservadas, pero debe de tratarlas como si lo fueran.
-|  			|
-| :-------: |
+
+|   |
+| :---------: |
 | Infinity  |
 | NaN       |
 |undefined  |
