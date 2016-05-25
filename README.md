@@ -34,7 +34,7 @@ var _Veget4;
 var $g0h4n;
 ```
 
-|Palabras  | Reservadas       |       |     |
+|Palabras Reservadas  |       |       |     |
 | ------------------ |:------:|:-----:| :---:|
 | arguments | break  | case | catch |
 | class| const| continue| debugger |
@@ -50,7 +50,7 @@ var $g0h4n;
 
 Los siguientes identificadores, no son palabras reservadas, pero debe de tratarlas como si lo fueran.
 
-|   |
+|  Palabras no Reservadas |
 | :---------: |
 | Infinity  |
 | NaN       |
