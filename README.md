@@ -7,19 +7,19 @@ Introducción a JavaScript
 Variables y asignación
 -------------
 Las variables en JavaScript son declaradas antes de ser usadas:
-```
+```javascript
 var x; // Declaracion de variable
 ```
 Se puede declarar una variable y asignarle un varlor:
-```
+```javascript
 var x = 20; //
 ```
 Ademas se puede asignar un valor a una variable existente:
-```
+```javascript
 x = 25;
 ```
 **Operadores de asignacion compuestos**
-```
+```javascript
 a + = 1;
 a = a + 1;
 ```
@@ -29,7 +29,7 @@ Un identificador es un nombre al cual se hace referencia a una variable, constan
 
  - Secuencia de letras [a-z-A-Z] y digitos [0-9].
  - El primer caracter debe ser cualquier letra, un signo dolar ($) o un guion bajo (_).
-```
+```javascript
 var goku;
 var _Veget4;
 var $g0h4n;
@@ -60,11 +60,11 @@ Comentarios
 -------------
 JavaScript posee dos formas en la que se pueden realizar comentarios, comentarios una sola linea y multilineas.
 El comentario de una sola linea inicia con // .
-```
+```javascript
 var z; // comentario de una sola linea
 ```
 Los comentarios multilineas se delimitan con /* y */
-```
+`````javascript`
 /* Este es 
 	un comentario de 
 	varias lineas 
