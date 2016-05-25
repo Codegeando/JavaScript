@@ -82,12 +82,13 @@ console.log(num,cad,band);
 ```
 	* Booleanos: true o false.
 	* Numeros : enteros y decimales [0-9].
-    * Cadenas : 'abc', "abc" [a-z-A-z].
+    * Cadenas : 'abc', '4b3' [a-z-A-z-0-9].
     * No values : indefinido, nulo [null, undefined].
 
 Arrays
 -------------
-Suelen ser llamados vectores, matrices e incluso arreglos. Es una coleccion de variables, que pueden ser de un mismo tipo o diferentes.
+Suelen ser llamados vectores, matrices e incluso arreglos. 
+Es una coleccion de variables, que pueden ser de un mismo tipo o diferentes.
 ```javascript
 var week = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
 console.log(week);
@@ -124,7 +125,7 @@ var num1 = 10;
 var num2 = 5;
 sum = num1 + num2; // Suma
 sub = num1 - num2; // Resta
-mult = num1 + num2; // Multiplicación
+mult = num1 * num2; // Multiplicación
 div = num1 / num2; // División
 ```
 **Operadores Lógicos**
@@ -164,8 +165,8 @@ res = num1 > num2; // res = true
 res = num1 < num2; // res = false
 res = num1 >= num2; // res = true
 res = num1 <= num2; // res = false
-res = num1 == num3; // res = true
-res = num1 != num3; // res = false
+res = num2 == num3; // res = true
+res = num2 != num3; // res = false
 ```
 
 Estructuras de Control de Flujo
