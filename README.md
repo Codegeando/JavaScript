@@ -174,3 +174,167 @@ Estructuras de Control de Flujo
 Condicionales y bucles en JavaScript.
 
 **Condicionales**
+	* Estructura if:
+    "Si se cumple una condición, hazlo; si no se cumple, no hagas nada".
+
+```javascript
+if(condition){
+	...
+}
+```
+
+Ejm:
+
+```javascript
+var num = 10;
+if(num > 5 && num <= 10){
+	console.log('Todo va estar bien!!');
+}
+```
+
+* Estructura if..else:
+    "Si se cumple una condición, hazlo; si no se cumple, haz este otro".
+
+```javascript
+if(condition){
+	...
+}else{
+	...
+}
+```
+
+Ejm:
+
+```javascript
+var note = 11;
+if(note >= 11){
+	console.log('Pase el semestre, ouh yeah!!');
+}else{
+	console.log("Profe, haga curva pe'!!");
+}
+```
+
+* Estructura switch:
+    "Condicional basado en casos".
+
+```javascript
+switch(value){
+	case 'A':
+		//...
+        break;
+   	case 'B':
+    	//...
+        break;
+   	default:
+    //otros casos ...
+}
+```
+
+**Bucles (Loops)**
+
+* Estructura for:
+    "Permite realizar repeticiones(bucles) de forma sencilla".
+
+```javascript
+for(init;condition;post_iteration){
+	//sentencias
+}
+```
+
+init: se ejecuta al comienzo del bucle.
+condition: valida antes de realizar el bucle (continua o se detiene).
+post_iteration: se ejecuta despues de cada iteración.
+
+Ejm:
+
+```javascript
+for(var i = 0; i <= 5; i++){
+	console.log(i);
+}
+//imprime los numeros del cero hasta el 5.
+```
+
+Podemos recorrer un array de manera simple:
+
+```javascript
+var week = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
+for(var i = 0; i < 7; i++){
+	console.log(week[i]);
+}
+//imprime los dias de la semana.
+```
+
+* Estructura for...in
+	"Estructura derivada de la estructura for, nos ayudar a recorrer un objeto o array".
+
+Ejm:
+
+```javascript
+//Loop de Array
+var avengers = ['Iron Man','Captain America','Thor','Hulk','Black widow','Clint Barton'];
+for(i in avengers){
+	console.log(avengers[i]);
+}
+
+//Loop de Object
+var avengers = {
+	character1 : {name : 'Iron Man', actor : 'Robert Downey'},
+    character2 : {name : 'Captain America', actor : 'Chris Evans'},
+    character3 : {name : 'Thor', actor : 'Chris Hemsworth'},
+    character4 : {name : 'Hulk', actor : 'Mark Ruffalo'},
+    character5 : {name : 'Black widow', actor : 'Scarlett Johansson'},
+    character6 : {name : 'Clint Barton', actor : 'Jeremy Renner'}
+};
+for(i in avengers){
+	console.log(avengers[i].actor);
+}
+```
+
+* Estructura while:
+	"Permite crear bucles que se ejecutaran ninguna, una o varias veces, esto depende de la condición"
+
+```javascript
+while(condition){
+	...
+}
+```
+
+Ejm:
+
+```javascript
+var res = 0;
+var num = 10;
+var i = 0;
+
+while(i <= num){
+	res += i;
+    i++;
+}
+console.log(res); // 55
+```
+
+* Estructura do...while:
+	"Similar a while, con la diferencia que se ejecuta al menos una vez..."
+
+```javascript
+do{
+	...
+    
+}while(condition);
+```
+
+Ejm:
+
+```javascript
+var res = 1;
+var num = 5;
+do{
+	res *= num;
+    num--;
+}while(num > 0);
+console.log(res); // 120
+```
+
+
+
+
