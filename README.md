@@ -358,14 +358,28 @@ console.log(result(num1,num2));
 -------------
 El "scope" de una variable, da referencia a la zona del programa en donde se define, tiene dos ambitos: global y local.
 
+Ejm. 1
+
 ```javascript
 var global = 10;
-function message(){
+function myfn(){
 	var local = 20;
-    console.log(local);
+    console.log(global);
 }
-console.log(global);
-console.log(message());
-console.log(local); // not defined
+myfn();
+console.log(local); // is not defined
+```
+
+Ejm. 2
+
+```javascript
+// Ambas variables son globales
+var global = 10;
+function myfn(){
+	local = 20;
+    console.log(global);
+}
+myfn();
+console.log(local);
 ```
 
