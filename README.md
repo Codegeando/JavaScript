@@ -335,6 +335,37 @@ do{
 console.log(res); // 120
 ```
 
+Funciones
+-------------
+Es una procedimiento que agrupa un cojunto de sentencias, para realizar una tarea o calcular algun valor.
 
+```javascript
+var num1 = 10;
+var num2 = 5;
+function sum(a,b){
+	return a + b;
+}
+console.log(sum(num1,num2));
 
+//Asignacion de función a una variable
+var result = function subtraction(a,b){
+	return a - b;
+}
+console.log(result(num1,num2));
+```
+
+Ámbito de Variables
+-------------
+El "scope" de una variable, da referencia a la zona del programa en donde se define, tiene dos ambitos: global y local.
+
+```javascript
+var global = 10;
+function message(){
+	var local = 20;
+    console.log(local);
+}
+console.log(global);
+console.log(message());
+console.log(local); // not defined
+```
 
